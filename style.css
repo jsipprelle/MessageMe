@@ -1,0 +1,242 @@
+html
+{
+	margin: 0px;
+	overflow: hidden;
+}
+
+body
+{
+	margin: 0px;
+	background-color: rgb(245, 245, 245);
+}
+
+header
+{
+	text-align: center;
+}
+
+.newConversation
+{
+	font-weight: bold;
+	color: white;
+	background-color: rgb(255, 0, 0);
+	border-bottom: 1px solid black;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+
+.newConversation:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.newConversation:active
+{
+	background-color: rgb(75, 75, 75);
+	color: white;
+}
+
+div#errorMessage
+{
+	color: rgb(255, 0, 0);
+	text-align: center;
+	display: none;
+	padding-bottom: 15px;
+}
+
+div#loginDiv
+{
+	display: none;
+	font-family: monospace;
+	margin: 0;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	width: 20%;
+	height: 15%;
+	min-height: 180px;
+	background-color: rgb(225, 225, 225);
+	padding-top: 0px;
+	padding-bottom: 0px;
+    border: 1px solid black;
+}
+
+div#loginDiv:hover
+{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+div#loginDiv:active
+{
+    border: 1px solid black;
+}
+
+div#messageDiv
+{
+	display: none;
+}
+
+div#messageList
+{
+	border-right: 1px solid black;
+	margin: 0;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 40%;
+	height: 100%;
+	right: calc(40% + 1px);
+}
+
+.sender
+{
+	font-weight: bold;
+}
+
+.conversation
+{
+	border-bottom: 1px solid black;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	padding-left: 35px;
+}
+
+.conversation:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.conversation:active
+{
+	color: white;
+	background-color: rgb(75, 75, 75);
+}
+
+#sendMessagePanel
+{
+	text-align: center;
+	width: 100%;
+	padding-top: 16px;
+}
+
+#messageText
+{
+	min-width: 150;
+	width: 40%;
+}
+
+#messageSendButton
+{
+	min-width: 100;
+	width: 15%;
+}
+
+div#currentMessage
+{
+	right: 100%;
+	border-left: 1px solid black;
+	margin: 0;
+	position: absolute;
+	top: 0%;
+	left: 40%;
+	width: 60%;
+	height: 100%;
+	background-color: white;
+	overflow: scroll;
+}
+
+p
+{
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	min-width: 50px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+p.left
+{
+    text-align: left;
+	border-style: solid;
+	border-width: 1px;
+}
+
+p.right
+{
+	text-align: right;
+	border-style: solid;
+	border-width: 1px;
+}
+
+h1
+{
+	text-align: center;
+	display: inline;
+	margin: 0;
+}
+
+h1.msg
+{
+	color: rgb(0, 0, 0);
+}
+
+h1.me
+{
+	color:rgb(255, 0, 0);
+}
+
+input
+{
+    margin: 0 auto;
+    display: inline;
+}
+
+input.txt
+{
+    background-color: white;
+	border: 1px solid black;
+	display: block;
+	width: 80%;
+}
+
+input.txt:hover
+{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#buttonsDiv
+{
+	position: absolute;
+	left: 15%;
+	width: 70%;
+}
+
+input.txt:active
+{
+    border: 1px solid black;
+}
+
+input.submitbutton
+{
+    background-color: white;
+    border: 1px solid black;
+    padding: 1px 20px;
+	display: inline;
+	width: 45%;
+}
+
+input.submitbutton:hover
+{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+input.submitbutton:active
+{
+    border: 1px solid black;
+	
+}
+
